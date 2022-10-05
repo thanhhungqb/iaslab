@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Nghia Huynh
-image: researcher.png
+image: 
 role: Student
 permalink: 'team/nghia-huynh'
 social:
@@ -12,7 +12,7 @@ social:
     github: https://github.com/nghiahuynh-ai
     website:
     orcid: https://orcid.org/0000-0003-0824-175X
-    research-gate: 
+    research-gate: https://www.researchgate.net/profile/Nghia-Huynh-11
 education:
  - Education
 ---
