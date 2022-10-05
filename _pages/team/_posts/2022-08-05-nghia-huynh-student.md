@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Nghia Huynh
-image: 
+image: nghiahuynh.jpg
 role: Student
 permalink: 'team/nghia-huynh'
 social:
