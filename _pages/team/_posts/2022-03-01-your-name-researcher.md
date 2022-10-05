@@ -7,12 +7,12 @@ role: Researcher
 permalink: 'team/your-name'
 social:
     twitter: 
-    linkedin: https://www.linkedin.com/in/nghia-huynh-ai
+    linkedin: https://www.linkedin.com/in/m%E1%BB%B9-nguy%E1%BB%85n-07a881200/
     google-scholar: 
-    github: https://github.com/nghiahuynh-ai
+    github: https://github.com/NguyenMinhMY
     website:
     orcid: https://orcid.org/0000-0003-0824-175X
-    research-gate: https://www.researchgate.net/profile/Nghia-Huynh-11
+    research-gate: https://www.researchgate.net/profile/My-Nguyen-261
 education:
  - Education
 ---
