@@ -11,7 +11,7 @@ social:
     google-scholar: 
     github: https://github.com/NguyenMinhMY
     website:
-    orcid: https://orcid.org/0000-0003-0824-175X
+    orcid:
     research-gate: https://www.researchgate.net/profile/My-Nguyen-261
 education:
  - Education
