@@ -1,7 +1,7 @@
 ---
 layout: member
 category: researcher
-title: Your name
+title: Nguyễn Minh Mỹ
 image: your-name.jpg
 role: Researcher
 permalink: 'team/your-name'
