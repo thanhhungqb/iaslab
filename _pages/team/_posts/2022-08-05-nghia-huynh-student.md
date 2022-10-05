@@ -3,16 +3,16 @@ layout: member
 category: student
 title: Nghia Huynh
 image: researcher.png
-role: PhD Student
-permalink: 'team/researcher-name'
+role: Student
+permalink: 'team/nghia-huynh'
 social:
-    twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
-    github: https://github.com/
+    twitter: 
+    linkedin: https://www.linkedin.com/in/nghia-huynh-ai
+    google-scholar: 
+    github: https://github.com/nghiahuynh-ai
     website:
-    orcid: https://orcid.org/
-    research-gate: https://www.researchgate.net/
+    orcid: https://orcid.org/0000-0003-0824-175X
+    research-gate: 
 education:
  - Education
 ---
