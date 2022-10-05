@@ -1,10 +1,10 @@
 ---
 layout: member
-category: researcher
+category: Student
 title: Nguyễn Minh Mỹ
-image: your-name.jpg
-role: Researcher
-permalink: 'team/your-name'
+image: minhmy.jpg
+role: Student
+permalink: 'team/Minh-My'
 social:
     twitter: 
     linkedin: https://www.linkedin.com/in/m%E1%BB%B9-nguy%E1%BB%85n-07a881200/
