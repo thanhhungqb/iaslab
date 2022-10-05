@@ -1,7 +1,7 @@
 ---
 layout: member
 category: student
-title: Researcher Name
+title: Nghia Huynh
 image: researcher.png
 role: PhD Student
 permalink: 'team/researcher-name'
