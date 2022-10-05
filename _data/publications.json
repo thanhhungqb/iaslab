@@ -1,29 +1,482 @@
 [
 	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/QHAGA8NG",
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/P5HVUPDD",
 		"type": "paper-conference",
-		"container-title": "The Second International Conference on Digital Enterprise and Information Systems (DEIS2013)",
-		"page": "119–128",
-		"publisher": "The Society of Digital Information and Wireless Communication",
-		"title": "Combination Of Statistical And Language Processing Methods In News Summarization: A Case Study For Vietnamese News",
+		"container-title": "Proceedings of the NAFOSTED Conference on Information and Computer Science",
+		"event-place": "Ho Chi Minh City, Vietnam",
+		"event-title": "NAFOSTED Conference on Information and Computer Science (NICS)",
+		"publisher": "IEEE",
+		"publisher-place": "Ho Chi Minh City, Vietnam",
+		"title": "Improving Automatic Speech Recognition for Low-Resource Language by Data Augmentation",
 		"author": [
 			{
-				"family": "Hung",
-				"given": "Vo Thanh"
+				"family": "Huynh",
+				"given": "Nguyen Hieu Nghia"
 			},
 			{
-				"family": "Tuoi",
-				"given": "Phan Thi"
+				"family": "Nguyen",
+				"given": "Tran Hoan Duy"
 			},
 			{
-				"family": "Tho",
-				"given": "Quan Thanh"
+				"family": "Nguyen",
+				"given": "Gia Huy"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Mau Minh Duc"
+			},
+			{
+				"family": "Le",
+				"given": "Dinh Luan"
+			},
+			{
+				"family": "Do",
+				"given": "Duc Hao"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Duc Dung"
+			},
+			{
+				"family": "Pham",
+				"given": "Minh Hoang"
+			},
+			{
+				"family": "Vo",
+				"given": "Thanh Hung"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2013"
+					"2022 (accepted)"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/HRLMSKV5",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the NAFOSTED Conference on Information and Computer Science",
+		"event-place": "Ho Chi Minh City, Vietnam",
+		"event-title": "NAFOSTED Conference on Information and Computer Science (NICS)",
+		"publisher": "IEEE",
+		"publisher-place": "Ho Chi Minh City, Vietnam",
+		"title": "A Linguistic-Based Transfer Learning Approach for Low-Resource Bahnar Text-To-Speech",
+		"author": [
+			{
+				"family": "Nguyen",
+				"given": "Tan Dat"
+			},
+			{
+				"family": "Lam",
+				"given": "Quang Tuong"
+			},
+			{
+				"family": "Do",
+				"given": "Duc Hao"
+			},
+			{
+				"family": "Cai",
+				"given": "Huu Thuc"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Hoang Suong"
+			},
+			{
+				"family": "Vo",
+				"given": "Thanh Hung"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Duc Dung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022 (accepted)"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/G9JWWPKJ",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the Korea Information Processing Society Conference",
+		"page": "805–807",
+		"publisher": "Korea Information Processing Society",
+		"title": "Deep Interpretable Learning for a Rapid Response System",
+		"author": [
+			{
+				"family": "Nguyen",
+				"given": "Trong-Nghia"
+			},
+			{
+				"family": "Vo",
+				"given": "Thanh-Hung"
+			},
+			{
+				"family": "Kho",
+				"given": "Bo-Gun"
+			},
+			{
+				"family": "Lee",
+				"given": "Guee-Sang"
+			},
+			{
+				"family": "Yang",
+				"given": "Hyung-Jeong"
+			},
+			{
+				"family": "Kim",
+				"given": "Soo-Hyung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/ZFCIFPMP",
+		"type": "article-journal",
+		"container-title": "Electronics",
+		"issue": "12",
+		"note": "publisher: Multidisciplinary Digital Publishing Institute",
+		"page": "1396",
+		"title": "Survival Prediction of Lung Cancer Using Small-Size Clinical Data with a Multiple Task Variational Autoencoder",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Vo",
+				"given": "Thanh-Hung"
+			},
+			{
+				"family": "Lee",
+				"given": "Guee-Sang"
+			},
+			{
+				"family": "Yang",
+				"given": "Hyung-Jeong"
+			},
+			{
+				"family": "Oh",
+				"given": "In-Jae"
+			},
+			{
+				"family": "Kim",
+				"given": "Soo-Hyung"
+			},
+			{
+				"family": "Kang",
+				"given": "Sae-Ryung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/FZBG49PN",
+		"type": "article-journal",
+		"container-title": "Clinical Cancer Research",
+		"issue": "5_Supplement",
+		"note": "publisher: The American Association for Cancer Research",
+		"page": "PO–038",
+		"title": "Abstract PO-038: Improving lung cancer survival analysis from CT images by saliency sampling",
+		"volume": "27",
+		"author": [
+			{
+				"family": "Vo",
+				"given": "Hung Thanh"
+			},
+			{
+				"family": "Kang",
+				"given": "Sae-Ryung"
+			},
+			{
+				"family": "Oh",
+				"given": "In-Jae"
+			},
+			{
+				"family": "Kim",
+				"given": "Soo-Hyung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/4Y4D35AA",
+		"type": "article-journal",
+		"container-title": "IEEE Access",
+		"note": "publisher: IEEE",
+		"page": "131988–132001",
+		"title": "Pyramid With Super Resolution for In-the-Wild Facial Expression Recognition",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Vo",
+				"given": "Thanh-Hung"
+			},
+			{
+				"family": "Lee",
+				"given": "Guee-Sang"
+			},
+			{
+				"family": "Yang",
+				"given": "Hyung-Jeong"
+			},
+			{
+				"family": "Kim",
+				"given": "Soo-Hyung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/3MIC2KPN",
+		"type": "paper-conference",
+		"container-title": "2019 19th International Symposium on Communications and Information Technologies (ISCIT)",
+		"page": "64–69",
+		"publisher": "IEEE",
+		"title": "Alternative Vietnamese Speech Synthesis System with Phoneme Structure",
+		"author": [
+			{
+				"family": "Lam",
+				"given": "Quang Tuong"
+			},
+			{
+				"family": "Do",
+				"given": "Duc Hao"
+			},
+			{
+				"family": "Vo",
+				"given": "Thanh Hung"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Duc Dung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/A67TSIHG",
+		"type": "paper-conference",
+		"container-title": "2019 International Conference on Multimodal Interaction",
+		"page": "572–576",
+		"publisher": "ACM",
+		"title": "Group-level Cohesion Prediction using Deep Learning Models with A Multi-stream Hybrid Network",
+		"author": [
+			{
+				"family": "Xuan Dang",
+				"given": "Tien"
+			},
+			{
+				"family": "Kim",
+				"given": "Soo-Hyung"
+			},
+			{
+				"family": "Yang",
+				"given": "Hyung-Jeong"
+			},
+			{
+				"family": "Lee",
+				"given": "Guee-Sang"
+			},
+			{
+				"family": "Vo",
+				"given": "Thanh-Hung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/9SIHALH7",
+		"type": "article-journal",
+		"container-title": "한국정보과학회 학술발표논문집",
+		"page": "799–801",
+		"title": "End-to-End Knee Bone Tumor Segmentation and Classification from Radiographs using Seg-Unet and Dice Loss",
+		"author": [
+			{
+				"family": "Do",
+				"given": "Nhu-Tai"
+			},
+			{
+				"family": "Nguyen-Quynh",
+				"given": "Tram-Tran"
+			},
+			{
+				"family": "Vo",
+				"given": "Thanh-Hung"
+			},
+			{
+				"family": "Jung",
+				"given": "Sung Taek"
+			},
+			{
+				"family": "Kim",
+				"given": "Soo-Hyung"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/JEGW6XLK",
+		"type": "paper-conference",
+		"container-title": "2018 5th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"page": "424–429",
+		"publisher": "IEEE",
+		"title": "A Predictive Model for ECG Signals Collected from Specialized IoT Devices using Deep Learning",
+		"author": [
+			{
+				"family": "Tran",
+				"given": "Duy Thanh"
+			},
+			{
+				"family": "Vo",
+				"given": "Hung Thanh"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Dung Duc"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Quan Minh"
+			},
+			{
+				"family": "Huynh",
+				"given": "Liem Thanh"
+			},
+			{
+				"family": "Le",
+				"given": "Ly Thi"
+			},
+			{
+				"family": "Do",
+				"given": "Hai Trong"
+			},
+			{
+				"family": "Quan",
+				"given": "Tho Thanh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/FTY6E4I5",
+		"type": "article-journal",
+		"container-title": "International Journal of Emerging Trends & Technology in Computer Science (IJETTCS)",
+		"issue": "2",
+		"note": "publisher: IJETTCS",
+		"page": "102–112",
+		"title": "Towards An Approach of Ontological Coreference Resolution for Sentiment Analysis",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Thuy",
+				"given": "Le Thi"
+			},
+			{
+				"family": "Hung",
+				"given": "Vo Thanh"
+			},
+			{
+				"family": "Trung",
+				"given": "Mai Duc"
+			},
+			{
+				"family": "Tho",
+				"given": "Quan Thanh"
+			},
+			{
+				"family": "Tuoi",
+				"given": "Phan Thi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/M46PRRKD",
+		"type": "paper-conference",
+		"container-title": "Asian Conference on Intelligent Information and Database Systems",
+		"page": "227–237",
+		"publisher": "Springer",
+		"title": "An Efficient Hybrid Model for Vietnamese Sentiment Analysis",
+		"author": [
+			{
+				"family": "Vo",
+				"given": "Thanh Hung"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Thien Tin"
+			},
+			{
+				"family": "Pham",
+				"given": "Hoang Anh"
+			},
+			{
+				"family": "Van Le",
+				"given": "Thanh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
 				]
 			]
 		}
@@ -101,381 +554,30 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/M46PRRKD",
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/QHAGA8NG",
 		"type": "paper-conference",
-		"container-title": "Asian Conference on Intelligent Information and Database Systems",
-		"page": "227–237",
-		"publisher": "Springer",
-		"title": "An Efficient Hybrid Model for Vietnamese Sentiment Analysis",
+		"container-title": "The Second International Conference on Digital Enterprise and Information Systems (DEIS2013)",
+		"page": "119–128",
+		"publisher": "The Society of Digital Information and Wireless Communication",
+		"title": "Combination Of Statistical And Language Processing Methods In News Summarization: A Case Study For Vietnamese News",
 		"author": [
-			{
-				"family": "Vo",
-				"given": "Thanh Hung"
-			},
-			{
-				"family": "Nguyen",
-				"given": "Thien Tin"
-			},
-			{
-				"family": "Pham",
-				"given": "Hoang Anh"
-			},
-			{
-				"family": "Van Le",
-				"given": "Thanh"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/FTY6E4I5",
-		"type": "article-journal",
-		"container-title": "International Journal of Emerging Trends & Technology in Computer Science (IJETTCS)",
-		"issue": "2",
-		"note": "publisher: IJETTCS",
-		"page": "102–112",
-		"title": "Towards An Approach of Ontological Coreference Resolution for Sentiment Analysis",
-		"volume": "6",
-		"author": [
-			{
-				"family": "Thuy",
-				"given": "Le Thi"
-			},
 			{
 				"family": "Hung",
 				"given": "Vo Thanh"
 			},
 			{
-				"family": "Trung",
-				"given": "Mai Duc"
+				"family": "Tuoi",
+				"given": "Phan Thi"
 			},
 			{
 				"family": "Tho",
 				"given": "Quan Thanh"
-			},
-			{
-				"family": "Tuoi",
-				"given": "Phan Thi"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2017"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/JEGW6XLK",
-		"type": "paper-conference",
-		"container-title": "2018 5th NAFOSTED Conference on Information and Computer Science (NICS)",
-		"page": "424–429",
-		"publisher": "IEEE",
-		"title": "A Predictive Model for ECG Signals Collected from Specialized IoT Devices using Deep Learning",
-		"author": [
-			{
-				"family": "Tran",
-				"given": "Duy Thanh"
-			},
-			{
-				"family": "Vo",
-				"given": "Hung Thanh"
-			},
-			{
-				"family": "Nguyen",
-				"given": "Dung Duc"
-			},
-			{
-				"family": "Nguyen",
-				"given": "Quan Minh"
-			},
-			{
-				"family": "Huynh",
-				"given": "Liem Thanh"
-			},
-			{
-				"family": "Le",
-				"given": "Ly Thi"
-			},
-			{
-				"family": "Do",
-				"given": "Hai Trong"
-			},
-			{
-				"family": "Quan",
-				"given": "Tho Thanh"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2018"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/A67TSIHG",
-		"type": "paper-conference",
-		"container-title": "2019 International Conference on Multimodal Interaction",
-		"page": "572–576",
-		"publisher": "ACM",
-		"title": "Group-level Cohesion Prediction using Deep Learning Models with A Multi-stream Hybrid Network",
-		"author": [
-			{
-				"family": "Xuan Dang",
-				"given": "Tien"
-			},
-			{
-				"family": "Kim",
-				"given": "Soo-Hyung"
-			},
-			{
-				"family": "Yang",
-				"given": "Hyung-Jeong"
-			},
-			{
-				"family": "Lee",
-				"given": "Guee-Sang"
-			},
-			{
-				"family": "Vo",
-				"given": "Thanh-Hung"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/3MIC2KPN",
-		"type": "paper-conference",
-		"container-title": "2019 19th International Symposium on Communications and Information Technologies (ISCIT)",
-		"page": "64–69",
-		"publisher": "IEEE",
-		"title": "Alternative Vietnamese Speech Synthesis System with Phoneme Structure",
-		"author": [
-			{
-				"family": "Lam",
-				"given": "Quang Tuong"
-			},
-			{
-				"family": "Do",
-				"given": "Duc Hao"
-			},
-			{
-				"family": "Vo",
-				"given": "Thanh Hung"
-			},
-			{
-				"family": "Nguyen",
-				"given": "Duc Dung"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/4Y4D35AA",
-		"type": "article-journal",
-		"container-title": "IEEE Access",
-		"note": "publisher: IEEE",
-		"page": "131988–132001",
-		"title": "Pyramid With Super Resolution for In-the-Wild Facial Expression Recognition",
-		"volume": "8",
-		"author": [
-			{
-				"family": "Vo",
-				"given": "Thanh-Hung"
-			},
-			{
-				"family": "Lee",
-				"given": "Guee-Sang"
-			},
-			{
-				"family": "Yang",
-				"given": "Hyung-Jeong"
-			},
-			{
-				"family": "Kim",
-				"given": "Soo-Hyung"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2020"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/FZBG49PN",
-		"type": "article-journal",
-		"container-title": "Clinical Cancer Research",
-		"issue": "5_Supplement",
-		"note": "publisher: The American Association for Cancer Research",
-		"page": "PO–038",
-		"title": "Abstract PO-038: Improving lung cancer survival analysis from CT images by saliency sampling",
-		"volume": "27",
-		"author": [
-			{
-				"family": "Vo",
-				"given": "Hung Thanh"
-			},
-			{
-				"family": "Kang",
-				"given": "Sae-Ryung"
-			},
-			{
-				"family": "Oh",
-				"given": "In-Jae"
-			},
-			{
-				"family": "Kim",
-				"given": "Soo-Hyung"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/9SIHALH7",
-		"type": "article-journal",
-		"container-title": "한국정보과학회 학술발표논문집",
-		"page": "799–801",
-		"title": "End-to-End Knee Bone Tumor Segmentation and Classification from Radiographs using Seg-Unet and Dice Loss",
-		"author": [
-			{
-				"family": "Do",
-				"given": "Nhu-Tai"
-			},
-			{
-				"family": "Nguyen-Quynh",
-				"given": "Tram-Tran"
-			},
-			{
-				"family": "Vo",
-				"given": "Thanh-Hung"
-			},
-			{
-				"family": "Jung",
-				"given": "Sung Taek"
-			},
-			{
-				"family": "Kim",
-				"given": "Soo-Hyung"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/ZFCIFPMP",
-		"type": "article-journal",
-		"container-title": "Electronics",
-		"issue": "12",
-		"note": "publisher: Multidisciplinary Digital Publishing Institute",
-		"page": "1396",
-		"title": "Survival Prediction of Lung Cancer Using Small-Size Clinical Data with a Multiple Task Variational Autoencoder",
-		"volume": "10",
-		"author": [
-			{
-				"family": "Vo",
-				"given": "Thanh-Hung"
-			},
-			{
-				"family": "Lee",
-				"given": "Guee-Sang"
-			},
-			{
-				"family": "Yang",
-				"given": "Hyung-Jeong"
-			},
-			{
-				"family": "Oh",
-				"given": "In-Jae"
-			},
-			{
-				"family": "Kim",
-				"given": "Soo-Hyung"
-			},
-			{
-				"family": "Kang",
-				"given": "Sae-Ryung"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/G9JWWPKJ",
-		"type": "paper-conference",
-		"container-title": "Proceedings of the Korea Information Processing Society Conference",
-		"page": "805–807",
-		"publisher": "Korea Information Processing Society",
-		"title": "Deep Interpretable Learning for a Rapid Response System",
-		"author": [
-			{
-				"family": "Nguyen",
-				"given": "Trong-Nghia"
-			},
-			{
-				"family": "Vo",
-				"given": "Thanh-Hung"
-			},
-			{
-				"family": "Kho",
-				"given": "Bo-Gun"
-			},
-			{
-				"family": "Lee",
-				"given": "Guee-Sang"
-			},
-			{
-				"family": "Yang",
-				"given": "Hyung-Jeong"
-			},
-			{
-				"family": "Kim",
-				"given": "Soo-Hyung"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
+					"2013"
 				]
 			]
 		}
