@@ -1,4 +1,57 @@
 [
+{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/KTZM9V2W",
+		"type": "article-journal",
+		"container-title": "IEEE Access",
+		"DOI": "10.1109/ACCESS.2022.3217478",
+		"page": "1-1",
+		"title": "ARNS: A Data-Driven Approach for SoH Estimation of Lithium-ion Battery using Nested Sequence Models with Considering Relaxation Effect",
+		"author": [
+			{
+				"family": "Pham",
+				"given": "Thien"
+			},
+			{
+				"family": "Le",
+				"given": "Trung"
+			},
+			{
+				"family": "Dang",
+				"given": "Dat"
+			},
+			{
+				"family": "Bui",
+				"given": "Hung"
+			},
+			{
+				"family": "Pham",
+				"given": "Hoang"
+			},
+			{
+				"family": "Truong",
+				"given": "Loi"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Mao"
+			},
+			{
+				"family": "Vo",
+				"given": "Hung"
+			},
+			{
+				"family": "Quan",
+				"given": "Tho"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
 	{
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/P5HVUPDD",
 		"type": "paper-conference",
