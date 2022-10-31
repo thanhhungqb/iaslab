@@ -2,9 +2,9 @@
 layout: member
 category: student
 title: Thong Huynh
-image: ThongHuynh.jpg
+image: thong-huynh.jpg
 role: Researcher
-permalink: 'team/your-name'
+permalink: 'team/thong-huynh'
 social:
     twitter: 
     linkedin: https://www.linkedin.com/in/huynh-thanh-thong-663449221/
