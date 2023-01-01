@@ -1,0 +1,56 @@
+---
+title: "Gallery"
+layout: default
+excerpt: "RT2 Lab at Institut Curie"
+sitemap: false
+permalink: /gallery.html
+---
+<h1>{{page.title}}</h1>
+
+<ul class="list-unstyled">
+    {% for article in site.data.gallery %}
+        <li class="media">
+            <div class="media-body">
+            <h4 class="mt-0 mb-1">{{ article.title }}</h4>
+            <p><small>{{ article.date }}</small></p>
+            
+            {% for img in article.imgs %}
+                <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/{{ img }}" id=img
+                style="width:100%">
+            {% endfor %}
+
+            {{ article.content }}
+
+            </div>
+        </li>
+    {% endfor %}
+</ul>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
