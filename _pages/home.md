@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-### About the Lab
+### About the IASLab
 
 <span style="color:red">I</span>ntelligent & <span style="color:red">A</span>utonomous <span style="color:red">S</span>ystems <span style="color:red">Lab</span>oratory.
 
