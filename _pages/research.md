@@ -31,7 +31,16 @@ ASR Systems try to map each signal input to the corresponding text. The architec
 ## AI for Healthcare
 
 ### Medical Image processing
-- Tumor Segmentation
+
+<p align="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/tumor_segmentation.png" width="100%" 
+  title="Tumor Segmentation">
+</p>
+<p align="center">Tumor Segmentation</p>
+
+Tumor Segmentation is the process of separating the tumor from a medical image (2D or 3D). It provides usefull information for  diagnosis, clinical studies and treatment planning. 
+
+
 - Lung cancer survival analysis
 - etc.
 
