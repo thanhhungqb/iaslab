@@ -13,7 +13,7 @@ permalink: /research/
 ### Vietnamese Automatic Speech Recognition
 
 <p align="center">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/research/asrsystem.png" width="800" 
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/asrsystem.png" width="100%" 
   title="ASR System">
 </p>
 <p align="center">Automatic Speech Recognition System</p>
