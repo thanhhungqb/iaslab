@@ -102,7 +102,7 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2022 (accepted)"
+					"2022"
 				]
 			]
 		}
@@ -149,7 +149,50 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2022 (accepted)"
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/7FSTTGAX",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the NAFOSTED Conference on Information and Computer Science",
+		"event-place": "Ho Chi Minh City, Vietnam",
+		"event-title": "NAFOSTED Conference on Information and Computer Science (NICS)",
+		"publisher": "IEEE",
+		"publisher-place": "Ho Chi Minh City, Vietnam",
+		"title": "MarbleNet: A Deep Neural Network Solution for Vietnamese Voice Activity Detection",
+		"author": [			
+			{
+				"family": "Nguyen-Vo",
+				"given": "Hoang-Thi"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Gia Huy"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Tran Hoan Duy"
+			},
+			{
+				"family": "Pham",
+				"given": "Minh Hoang"
+			},
+			{
+				"family": "Vo",
+				"given": "Thanh Hung"
+			},
+			{
+				"family": "Do",
+				"given": "Duc Hao"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
 				]
 			]
 		}
