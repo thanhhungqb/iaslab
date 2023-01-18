@@ -22,6 +22,16 @@ ASR Systems try to map each signal input to the corresponding text. The architec
 
 ### Emotion recognition
 
+### Electrocardiogram (ECG) classification
+
+<p align="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/ecg_signal.png" width="80%" 
+  title="ECG Signal">
+</p>
+<p align="center">ECG Signal</p>
+
+Early detection and prediction of cardiac anomalies play an important role in the diagnosis and treatment of cardiovascular diseases. In medicine, electrocardiography provides valuable information for the doctors since they can accurately determine what is happening concerning the heart activities. Nevertheless, electrocardiography classification is a non-trivial challenge due to the specialties of these data as well as the reliability of manual data collection methods. This motivates IASLab's members to study electrocardiography signal classification method based on Deep Learning approach to handle data collected from intelligent IoT devices.
+
 ### Other related topics
 - NLP/NLU
 - Speech: text-to-speech (TTS)
@@ -30,19 +40,26 @@ ASR Systems try to map each signal input to the corresponding text. The architec
 
 ## AI for Healthcare
 
-### Medical Image processing
+### Tumor Segmentation
 
 <p align="center">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/research/tumor_segmentation.png" width="100%" 
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/lung_tumor_segmentation.png" width="90%" 
   title="Tumor Segmentation">
 </p>
-<p align="center">Tumor Segmentation</p>
+<p align="center">Lung Tumor Segmentation</p>
 
-Tumor Segmentation is the process of separating the tumor from a medical image (2D or 3D). It provides usefull information for  diagnosis, clinical studies and treatment planning. 
+<p align="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/brain_tumor_segmentation.png" width="100%" 
+  title="Brain Tumor Segmentation">
+</p>
+<p align="center">Brain Tumor Segmentation</p>
 
+Nowadays, cancers is one of the most common causes of death. It is the growing of abnormal cells which is able to invade and destroy other cells and tissues; moreover, it can occur in any organ of the body. However, cancers can be treated if they're detected early. Therefore, some researches on this domain have been conducted by IASLab. We focus on detecting tumor of Lung and Brain.
 
-- Lung cancer survival analysis
-- etc.
+Tumor Segmentation is the process of separating the tumor from a medical image (2D or 3D). It provides useful information for diagnosis, clinical studies and treatment planning. By using Deep Learining architectures, we got some promising results on both Lung and Brain tumor segmentation aims. This significantly encourages us to expand our jobs in Tumor Segmentation domain. 
+
+<!-- - Lung cancer survival analysis
+- etc. -->
 
 ## Others
 
