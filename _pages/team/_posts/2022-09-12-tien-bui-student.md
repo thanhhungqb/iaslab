@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Tien Bui
-image: tienbui.jpg
+image: tienbui.JPG
 role: student
 permalink: 'team/tien-bui'
 social:
