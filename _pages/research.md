@@ -20,6 +20,24 @@ permalink: /research/
 
 ASR Systems try to map each signal input to the corresponding text. The architecture of ASR Systems typically includes Feature Extractor, Acoustic Model (Encoder) and Decoder. In many situations, Language Model might be used to improve prediction accuracy. After being extracted by Feature Extractor, data are encoded by the Encoder and decoded by the Decoder to produce the text. Click <a href="https://asr-bilhfc3vqa-as.a.run.app/">here</a> for ASR demonstration.
 
+### Chatbot for restaurant booking service
+
+Currently, the demand for direct interaction between businesses and customers is increasing. Science and technology is constantly evolving, Chatbot has been launched to solve the above needs for companies and businesses. Chatbots are used in many topics depending on the scenario built for bots. In the topic of restaurant booking service, the chatbot was created to interact with customers in the most natural way but still solve the customer's needs and get the most accurate information of the customer.
+
+There are many frameworks for creating chatbots, one of which is the Rasa framework. The framework acts as the expected conversational flow which makes it feel more like a human interaction. This framework consists of two parts: Rasa NLU to determine user intent and Rasa Core based on user intent to decide a next action to be performed by the bot as the script is built.
+
+<p align="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/rasa_architecture.png" width="100%" 
+  title="ASR System">
+</p>
+<p align="center">Rasa NLU independent analysis system and independent action of Rasa Core <a href="https://rasa.com/blog/bending-the-ml-pipeline-in-rasa-3-0/">ref</a></p>
+
+<p align="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/rasa_test_fanpage_facebook.png" width="100%" 
+  title="ASR System">
+</p>
+<p align="center">Test chatbot Rasa in fanpage facebook</p>
+
 ### Emotion recognition
 
 ### Electrocardiogram (ECG) classification
