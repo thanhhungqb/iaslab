@@ -50,9 +50,10 @@ Facial emotion recognition has many applications in variety of fields:
 - Recruitment: evalutate candidate quality and interview process.
 
 <p align="center">
-    <img src = "{{site.url}} {{site.baseurl}}/images/research/late_fusion.png" width=80% >
+    <img src="{{ site.url }}{{ site.baseurl }}/images/research/late_fusion.png" width="80%" title="Combined Architecture" >
 </p>
-<p align="center">Combined Architecture</p>
+
+
 ### Electrocardiogram (ECG) classification
 
 <p align="center">
