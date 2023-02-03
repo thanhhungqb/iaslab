@@ -39,12 +39,25 @@ There are many frameworks for creating chatbots, one of which is the Rasa framew
 <p align="center">Test chatbot Rasa in fanpage facebook</p>
 
 ### Emotion recognition
+The problem of emotion recognition is a large area of research based on two subjects, which are emotional psychology and artificial intelligence. Human's emotions can be expressed through speech or nonverbal such as facial variations, tone of voice, etc and are recognized by sensor. In 1967, Mehrabian showed that 55% of emotions expressed from the face, 38% from the words voice and 7% from speech. That is why researchers are very interested in this field.  
 
+Facial emotion recognition has many applications in variety of fields: 
+- Education: learner's reactions to participating in the lesson.
+- Examination: monitor and make predictions whenever contestants show signs of cheating.
+- Marketing: how to receive information from buyers when listening about product offers.
+- Security: helps detect suspicious behavior in the crowd and prevent threats potential opportunity.
+- Medical: automate the care process and analyzing the mental health of users.
+- Recruitment: evalutate candidate quality and interview process.
+
+<p align="center">
+    <img src = "{{site.url}} {{site.baseurl}}/images/research/fusion.png" width=80%
+</p>
+<p align="center">Combined Architecture</p>
 ### Electrocardiogram (ECG) classification
 
 <p align="center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/research/ecg_signal.png" width="80%" 
-  title="ECG Signal">
+  title="FER system">
 </p>
 <p align="center">ECG Signal</p>
 
