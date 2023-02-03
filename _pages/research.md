@@ -57,7 +57,7 @@ Facial emotion recognition has many applications in variety of fields:
 
 <p align="center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/research/ecg_signal.png" width="80%" 
-  title="FER system">
+  title="ECG Signal">
 </p>
 <p align="center">ECG Signal</p>
 
