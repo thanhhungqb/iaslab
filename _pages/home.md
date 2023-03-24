@@ -12,7 +12,7 @@ permalink: /
 
 Research focuses on AI and its application. Build an automatic or semi-automatic system.
 
-The first research field is **Human–computer interaction (HCI)** that design the AI to better interaction between human can computer.
-There are many topics in HCI field, such as, facial emotion recognition (FER), automatic speech recognition (ASR).
+The first research field is **Human–computer interaction (HCI)** which designs AI to better interaction between humans and computers. 
+There are many topics in the HCI field, such as Chatbot, facial emotion recognition (FER), and automatic speech recognition (ASR).
 
-The second research field is **AI for Healthcare** where we can apply AI to improve the analysis, presentation, and comprehension of complex medical and health care data.
+The second research field is **AI for Healthcare** where we can apply AI to improve the analysis, presentation, and comprehension of complex medical and healthcare data.
