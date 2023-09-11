@@ -1,6 +1,6 @@
 ---
 layout: member
-category: Student
+category: student
 title: Duong Duc Nghia
 image: duongnghia222.jpg
 role: Student
