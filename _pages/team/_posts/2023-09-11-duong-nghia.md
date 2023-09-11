@@ -2,7 +2,7 @@
 layout: member
 category: Student
 title: Duong Duc Nghia
-image: duongnghia222.jpg
+image: duong-nghia.jpg
 role: Student
 permalink: 'team/duong-nghia'
 social:
