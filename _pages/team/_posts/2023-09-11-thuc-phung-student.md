@@ -17,4 +17,4 @@ education:
  - Studying Computer Science at Ho Chi Minh city University of Technology
 ---
 
-Ice Tea for life.
+ドラえもんの魔法の宝物
