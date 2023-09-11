@@ -84,6 +84,36 @@ The mechanics of image captioning involve a two-fold process: Visual Recognition
 </p>
 <p align="center">Image Captioning - Basic Model</p>
 
+### Text-to-Image Generation
+
+Our research team specializes in the exciting field of text-to-image generation. This technology has immense potential across various industries, including e-commerce, advertising, virtual reality, and creative content generation.
+
+Datasets: MS-COCO, ANNA, Multi-modal CelebA-HQ, DeepFashion-MultiModal, ...
+
+Key Features and Capabilities:
+
+1. Advanced Text-to-Image Models: Our team has reproduced and analysis cutting-edge deep learning models that can generate visually coherent and contextually relevant images based on textual input. These models are trained on vast datasets and leverage advanced techniques such as attention mechanisms and generative adversarial networks (GANs) to produce stunning visual representations. Network architectures: DALL-E2, Stable Diffusion, ...
+2. Fine-Grained Control: Our models allow fine-grained control over the generated images, enabling users to specify various attributes such as object appearance, background, lighting conditions, and more. This level of control empowers businesses to create custom visuals that align with their brand identity and specific requirements.
+3. Scalability and Efficiency: Our research team focuses on developing scalable and efficient models that can handle large-scale text-to-image generation tasks. We optimize our solutions to balance computational resources while maintaining the quality and fidelity of the generated images, ensuring practical application in real-world scenarios.
+
+Use Cases:
+
+1. E-commerce: Generate product images based on textual descriptions, allowing for dynamic and customizable representations of products on e-commerce platforms.
+2. Creative Content Generation: Enable artists, designers, and content creators to transform written ideas into vivid visual concepts, bringing stories, illustrations, and designs to life.
+3. Virtual Reality and Gaming: Enhance virtual environments and gaming experiences by generating realistic scenes and characters based on textual input, enabling immersive storytelling and world-building.
+4. Advertising and Marketing: Create compelling visual advertisements and marketing materials by generating images that accurately depict product features, brand messaging, and customer preferences.
+5. Data Visualization: Transform textual data into meaningful visual representations, aiding in data analysis, decision-making, and communication of complex information.
+
+<p align="center">
+  <img src="../images/research/text2image-demo-code.png" width="50%" 
+  title="text2image-demo-Source code">
+</p>
+
+<p align="center">
+  <img src="../images/research/text2image-demo-results.png" width="90%" 
+  title="text2image-demo-results">
+</p>
+
 ### Other related topics
 - NLP/NLU
 - Speech: text-to-speech (TTS)
