@@ -1,9 +1,9 @@
 ---
 layout: member
-category: student
+category: researcher
 title: Hau Pham
 image: haupham.jpg
-role: Student
+role: Researcher
 permalink: 'team/hau-pham'
 social:
     twitter: https://twitter.com/ngoc_hau_0207
