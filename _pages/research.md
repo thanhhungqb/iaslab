@@ -64,6 +64,26 @@ Facial emotion recognition has many applications in variety of fields:
 
 Early detection and prediction of cardiac anomalies play an important role in the diagnosis and treatment of cardiovascular diseases. In medicine, electrocardiography provides valuable information for the doctors since they can accurately determine what is happening concerning the heart activities. Nevertheless, electrocardiography classification is a non-trivial challenge due to the specialties of these data as well as the reliability of manual data collection methods. This motivates IASLab's members to study electrocardiography signal classification method based on Deep Learning approach to handle data collected from intelligent IoT devices.
 
+### Image Captioning
+
+In today's digital age, images have become the universal language of the internet. Image Captioning - this extraordinary fusion of computer vision and natural language processing has the capacity to bestow machines with the gift of language, enabling them to perceive and describe the intricate tapestry of our visual world in ways that were once the exclusive domain of human understanding.
+
+<p align="center">
+  <img src="../images/research/Image Captioning.png" width="90%" 
+  title="Image Captioning">
+</p>
+<p align="center">Image Captioning</p>
+
+The mechanics of image captioning involve a two-fold process: Visual Recognition and Natural Language Generation.
++ First, state-of-the-art deep learning techniques, such as ***Convolutional Neural Networks (CNNs)***, are employed to extract nuanced features from an input image. These features encapsulate information about **shapes**, **objects**, **colors**, and **relationships** within the image.
++ Subsequently, ***Recurrent Neural Networks (RNNs)***, transformer models, or other advanced NLP techniques weave these features into coherent and contextually relevant textual descriptions.
+
+<p align="center">
+  <img src="../images/research/Image Captioning - Basic Model.png" width="90%" 
+  title="Image Captioning - Basic Model">
+</p>
+<p align="center">Image Captioning - Basic Model</p>
+
 ### Other related topics
 - NLP/NLU
 - Speech: text-to-speech (TTS)
