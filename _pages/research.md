@@ -97,6 +97,26 @@ Tumor Segmentation is the process of separating the tumor from a medical image (
 
 We always extend our research topic to meet our life needed, if you found a topic is interested, feel free to raise.
 
+### Image Captioning
+
+In today's digital age, images have become the universal language of the internet. Image Captioning - this extraordinary fusion of computer vision and natural language processing has the capacity to bestow machines with the gift of language, enabling them to perceive and describe the intricate tapestry of our visual world in ways that were once the exclusive domain of human understanding.
+
+<p align="center">
+  <img src="../images/research/Image Captioning.png" width="90%" 
+  title="Image Captioning">
+</p>
+<p align="center">Image Captioning</p>
+
+The mechanics of image captioning involve a two-fold process: Visual Recognition and Natural Language Generation.
++ First, state-of-the-art deep learning techniques, such as ***Convolutional Neural Networks (CNNs)***, are employed to extract nuanced features from an input image. These features encapsulate information about **shapes**, **objects**, **colors**, and **relationships** within the image.
++ Subsequently, ***Recurrent Neural Networks (RNNs)***, transformer models, or other advanced NLP techniques weave these features into coherent and contextually relevant textual descriptions.
+
+<p align="center">
+  <img src="../images/research/Image Captioning - Basic Model.png" width="90%" 
+  title="Image Captioning - Basic Model">
+</p>
+<p align="center">Image Captioning - Basic Model</p>
+
 ### Computer Vision
 - Pattern recognition
 - Object detection
