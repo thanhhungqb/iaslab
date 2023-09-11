@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Nghia Huynh
 image: nghiahuynh.jpg
-role: Student
+role: Researcher
 permalink: 'team/nghia-huynh'
 social:
     twitter: 
