@@ -2,7 +2,7 @@
 layout: member
 category: researcher
 title: Thuc Phung Ngoc
-image: thucphung.jpg
+image: thuc-phung.jpg
 role: Researcher
 permalink: 'team/thuc-phung'
 social:
