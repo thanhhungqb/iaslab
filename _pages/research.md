@@ -114,6 +114,37 @@ Use Cases:
   title="text2image-demo-results">
 </p>
 
+### Automatic Slides Generator for Scientific Academic Papers
+
+Presentations are commonly used in the fields of business, education, and research because they can effectively summarize and clarify large amounts of information using visual aids. With the development of deep learning, we aim to create a deep-learning model that can produce presentation slides on demand. This solution involves document summarizing, image and text retrieval, and slide organization to ensure that important components are presented in a suitable format. Our system is designed to help researchers efficiently create presentations on their respective topics.
+
+Datasets: DOC2PPT, SciDuet, PS5K, ...
+
+Key Features and Capabilities:
+
+1. Convert a PDF paper to texts: Our system can convert scientific articles of any length from PDF format to text format by using the GROBID framework, thereby serving subsequent tasks.
+2. Generate slides efficiently: Users enter the title of slides. Our system will generate slide contents that match these titles. Users can combine, and edit generated slides
+3. Extract graphical elements exactly: Our system uses the pdffigures2 to extract figures and tables that are included in papers. The graphical elements is used in slide generation process.
+
+Use Cases:
+
+1. Researcher: Help the researchers can prepare the presentation quickly and creative.
+2. Reader: Enable readers to capture the main idea of the papers.
+
+<p align="center">
+  <img src="../images/research/Automatic Slide Generator system architecture.png" width="50%" 
+  title="Automatic Slide Generator system architecture">
+</p>
+
+<p align="center">
+  <img src="../images/research/Slide generation demo.png" width="50%" 
+  title="Slide generation demo">
+</p>
+### Other related topics
+- NLP/NLU
+- Speech: text-to-speech (TTS)
+- Biomedical signal processing: EEG, ECG, etc.
+
 ### Other related topics
 - NLP/NLU
 - Speech: text-to-speech (TTS)
