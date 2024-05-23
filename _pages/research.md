@@ -174,6 +174,22 @@ Tumor Segmentation is the process of separating the tumor from a medical image (
 <!-- - Lung cancer survival analysis
 - etc. -->
 
+### Medical image segmentation
+
+Medical image segmentation, like a digital scalpel, unveils hidden details in scans to improve diagnoses, treatment, and patient care. While recent deep learning methods using Transformers and U-Net are powerful, they can be computationally expensive. Our MCUnet offers a solution, achieving high accuracy with efficient convolution operations. We introduce three key innovations: CRFBNet for improved skip connections, Multi-Head Output for better predictions, and Consistency Guide Loss for robust multi-head training.
+
+<p align="center">
+  <img src="../images/research/MCUnet.png" width="60%" 
+  title="Overall Architecture of MCUnet">
+</p>
+<p align="center">Overall Architecture of MCUnet</p>
+
+<p align="center">
+  <img src="../images/research/MCUnetResult.jpg" width="60%" 
+  title="Qualitative result">
+</p>
+<p align="center">Qualitative result</p>
+
 ## Others
 
 We always extend our research topic to meet our life needed, if you found a topic is interested, feel free to raise.
