@@ -151,6 +151,31 @@ Use Cases:
 - Biomedical signal processing: EEG, ECG, etc.
 
 
+<!-- Tuan Anh & Tien Nam -->
+### Generate dense captions for short video
+With the explosion of social media platforms such as YouTube, Facebook, TikTok, along with the vast amount of short-duration videos being created and shared every day, the demand for models to process and automate video-related workflows, particularly in the field of video understanding, is growing rapidly. The field of Video Understanding comprises various core subtasks such as action recognition and classification, video topic classification, object detection and tracking, video caption generation, and more. Among these tasks, dense video captioning has become one of the most prominent and highly regarded topics due to the challenges it presents and real-world applications.
+
+How does dense video captioning work?
+<p align="center">
+    <img src="https://i.imgur.com/D5hWrGo.png" width="45%" title="Integrated Architecture" >
+</p>
+
+Dense captions generator has many applications in variety of fields: 
+- Supporting students in watching and comprehending lecture video content.
+- Delivering video content and experience for individuals with visual impairments.
+- Assisting users in quickly and efficiently searching, sorting, and filtering video content.
+- Summarizing video content and providing concise explanations of videos.
+- Enhancing the quality of smart surveillance cameras.
+
+<p align="center">
+    <img src="https://i.imgur.com/7PMnEur.png" width="90%" title="Integrated Architecture" >
+</p>
+
+
+
+
+
+
 ## AI for Healthcare
 
 ### Tumor Segmentation
