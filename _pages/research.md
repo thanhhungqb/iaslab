@@ -166,10 +166,6 @@ Use Cases:
   <img src="../images/research/Slide generation demo.png" width="50%" 
   title="Slide generation demo">
 </p>
-### Other related topics
-- NLP/NLU
-- Speech: text-to-speech (TTS)
-- Biomedical signal processing: EEG, ECG, etc.
 
 ### Other related topics
 - NLP/NLU
