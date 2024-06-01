@@ -20,6 +20,32 @@ permalink: /research/
 
 ASR Systems try to map each signal input to the corresponding text. The architecture of ASR Systems typically includes Feature Extractor, Acoustic Model (Encoder) and Decoder. In many situations, Language Model might be used to improve prediction accuracy. After being extracted by Feature Extractor, data are encoded by the Encoder and decoded by the Decoder to produce the text. Click <a href="https://asr-bilhfc3vqa-as.a.run.app/">here</a> for ASR demonstration.
 
+### Voice Cloning
+
+Voice cloning is a task in text-to-speech (TTS) technology that allows for replicating a person's voice to speak a given text. Voice cloning can be applied in various fields, such as creating voice agents for banks and commerce. It can restore the voices of deceased individuals or those with speech impairments. Additionally, it can be used to generate voices for characters in video games, enhancing the gaming experience with more personalized and realistic character interactions.
+
+<p align="center">
+  <img src="../images/research/voice_cloning_overview.png" width="50%" 
+  title="Image Captioning">
+</p>
+<p align="center">Voice Cloning System</p>
+
+Although there are several ongoing studies in this field, challenges remain. The generated voice often lacks the naturalness of human speech, and it may not capture the unique characteristics of the reference voice accurately. These limitations highlight the need for further advancements to achieve more realistic and distinctive voice cloning results.
+
+<p align="center">
+  <img src="../images/research/voice_cloning_architecture.png" width="80%" 
+  title="Image Captioning">
+</p>
+<p align="center">DGSpeech Architecture</p>
+
+This project introduces DGSpeech, which is built on the FastSpeech2 architecture. DGSpeech incorporates:
+
+- MixStyle Layer Normalization: this technique perturbs style information by mixing and shuffling style embeddings, enhancing robustness and generalization of TTS models to adapt to varying styles and domains.
+
+- Flow-based Postnet: refines outputs from the transform decoder to produce more precise mel-spectrograms, enhancing the detail and quality of generated speech, particularly in expressive contexts.
+
+Click [here](https://hungle45.github.io/tts-demo/) for Voice Cloning demonstration.
+
 ### Chatbot for restaurant booking service
 
 Currently, the demand for direct interaction between businesses and customers is increasing. Science and technology is constantly evolving, Chatbot has been launched to solve the above needs for companies and businesses. Chatbots are used in many topics depending on the scenario built for bots. In the topic of restaurant booking service, the chatbot was created to interact with customers in the most natural way but still solve the customer's needs and get the most accurate information of the customer.
