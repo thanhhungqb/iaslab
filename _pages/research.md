@@ -65,6 +65,7 @@ There are many frameworks for creating chatbots, one of which is the Rasa framew
 <p align="center">Test chatbot Rasa in fanpage facebook</p>
 
 ### Emotion recognition
+#### Image
 The problem of emotion recognition is a large area of research based on two subjects, which are emotional psychology and artificial intelligence. Human's emotions can be expressed through speech or nonverbal such as facial variations, tone of voice, etc and are recognized by sensor. In 1967, Mehrabian showed that 55% of emotions expressed from the face, 38% from the words voice and 7% from speech. That is why researchers are very interested in this field.  
 
 Facial emotion recognition has many applications in variety of fields: 
@@ -79,6 +80,7 @@ Facial emotion recognition has many applications in variety of fields:
     <img src="{{ site.url }}{{ site.baseurl }}/images/research/late_fusion.png" width="80%" title="Combined Architecture" >
 </p>
 
+#### Video
 Traditionally, facial emotion recognition has relied heavily on static images. However, in dynamic contexts such as videos, understanding temporal dynamics becomes crucial for accurate emotion interpretation. One approach to addressing this involves focusing on the most relevant frames within a video, rather than uniformly sampling frames. This is achieved by calculating a distribution for the importance of frames based on an attention mechanism, facilitating more efficient sampling and analysis.
 
 <p align="center">
@@ -90,11 +92,22 @@ In overview, the model is divided into 2 stages:
 Stage 1: The model will generate an attention weight to measure the correlation between frames. Then, a new distribution will be calculated based on this matrix, allowing for more suitable sampling of new frames.
 Stage 2: The model will take in the new frame samples and provide the primary prediction results.
 
-
 <p align="center">
   <img src="../images/research/fer-overall_resample_model.png" width="90%" 
   title="Image Captioning">
 </p>
+
+Usage:
+
+1. Frame Sampling: Frames are sampled uniformly from the distribution of original video frames.
+2. Feature Extraction: A ResNet backbone is employed to extract features from each sampled frame. This step ensures that relevant information is captured from the frames.
+3. Incorporation of Attention Mechanism within Frames: Due to global connectivity limitations, an attention block is introduced. This attention mechanism enhances feature correlation within individual frames.
+4. Global Average Pooling (GAP) and Tokenization: Global Average Pooling (GAP) is applied along the spatial dimension. Each frame is collapsed into a single token, which acts as input for subsequent blocks.
+5. Temporal Attention Mechanism: Besides typical transformer block outputs, this block generates an attention weight. The attention weight matrix stores the correlation between frames, capturing temporal relationships.
+6. Calculation of New Distribution: Utilizing the correlation matrix, a new distribution is computed. This distribution guides the resampling of frames for enhanced temporal understanding.
+7. Resampling Frames: Frames are resampled based on the updated distribution. This step ensures that the model captures temporal correlations effectively.
+8. Prediction Using Resampled Frames: Primary predictions are made based on the resampled frames.
+
 
 This multi-stage approach not only enhances the accuracy and efficiency of emotion recognition systems but also renders them indispensable tools across a multitude of fields and applications.
 
