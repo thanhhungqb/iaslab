@@ -79,6 +79,24 @@ Facial emotion recognition has many applications in variety of fields:
     <img src="{{ site.url }}{{ site.baseurl }}/images/research/late_fusion.png" width="80%" title="Combined Architecture" >
 </p>
 
+Traditionally, facial emotion recognition has relied heavily on static images. However, in dynamic contexts such as videos, understanding temporal dynamics becomes crucial for accurate emotion interpretation. One approach to addressing this involves focusing on the most relevant frames within a video, rather than uniformly sampling frames. This is achieved by calculating a distribution for the importance of frames based on an attention mechanism, facilitating more efficient sampling and analysis.
+
+<p align="center">
+  <img src="../images/research/fer-overall_resample_frame.png" width="90%" 
+  title="Image Captioning">
+</p>
+
+In overview, the model is divided into 2 stages:
+Stage 1: The model will generate an attention weight to measure the correlation between frames. Then, a new distribution will be calculated based on this matrix, allowing for more suitable sampling of new frames.
+Stage 2: The model will take in the new frame samples and provide the primary prediction results.
+
+
+<p align="center">
+  <img src="../images/research/fer-overall_resample_model.png" width="90%" 
+  title="Image Captioning">
+</p>
+
+This multi-stage approach not only enhances the accuracy and efficiency of emotion recognition systems but also renders them indispensable tools across a multitude of fields and applications.
 
 ### Electrocardiogram (ECG) classification
 
