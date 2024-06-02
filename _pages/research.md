@@ -89,7 +89,10 @@ Traditionally, facial emotion recognition has relied heavily on static images. H
 </p>
 
 In overview, the model is divided into 2 stages:
+
 Stage 1: The model will generate an attention weight to measure the correlation between frames. Then, a new distribution will be calculated based on this matrix, allowing for more suitable sampling of new frames.
+
+
 Stage 2: The model will take in the new frame samples and provide the primary prediction results.
 
 <p align="center">
