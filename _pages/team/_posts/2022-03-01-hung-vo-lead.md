@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Hung Vo
 image: thanhhungqb.png
-role: Lab Director
+role: IASLab Director
 permalink: 'team/hung-vo'
 social:
     twitter: 

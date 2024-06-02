@@ -53,69 +53,90 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/P5HVUPDD",
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/JJCWQZ6B",
 		"type": "paper-conference",
-		"container-title": "Proceedings of the NAFOSTED Conference on Information and Computer Science",
+		"container-title": "2022 9th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"DOI": "10.1109/NICS56915.2022.10013370",
 		"event-place": "Ho Chi Minh City, Vietnam",
-		"event-title": "NAFOSTED Conference on Information and Computer Science (NICS)",
+		"event-title": "2022 9th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"ISBN": "978-1-66545-422-3",
+		"page": "159-164",
 		"publisher": "IEEE",
 		"publisher-place": "Ho Chi Minh City, Vietnam",
+		"source": "DOI.org (Crossref)",
 		"title": "Improving Automatic Speech Recognition for Low-Resource Language by Data Augmentation",
+		"URL": "https://ieeexplore.ieee.org/document/10013370/",
 		"author": [
 			{
-				"family": "Huynh",
-				"given": "Nguyen Hieu Nghia"
+				"family": "Nghia",
+				"given": "Huynh Nguyen Hieu"
 			},
 			{
-				"family": "Nguyen",
-				"given": "Tran Hoan Duy"
+				"family": "Duy",
+				"given": "Nguyen Tran Hoan"
 			},
 			{
-				"family": "Nguyen",
-				"given": "Gia Huy"
+				"family": "Huy",
+				"given": "Nguyen Gia"
 			},
 			{
-				"family": "Nguyen",
-				"given": "Mau Minh Duc"
+				"family": "Due",
+				"given": "Nguyen Mau Minh"
 			},
 			{
-				"family": "Le",
-				"given": "Dinh Luan"
+				"family": "Luan",
+				"given": "Le Dinh"
 			},
 			{
-				"family": "Do",
-				"given": "Duc Hao"
+				"family": "Hao",
+				"given": "Do Duc"
 			},
 			{
-				"family": "Nguyen",
-				"given": "Duc Dung"
+				"family": "Dung",
+				"given": "Nguyen Duc"
 			},
 			{
-				"family": "Pham",
-				"given": "Minh Hoang"
+				"family": "Hoang",
+				"given": "Pham Minh"
 			},
 			{
-				"family": "Vo",
-				"given": "Thanh Hung"
+				"family": "Hung",
+				"given": "Vo T."
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					24
+				]
+			]
+		},
 		"issued": {
 			"date-parts": [
 				[
-					"2022 (accepted)"
+					"2022",
+					10,
+					31
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/ARb7SVOo/items/HRLMSKV5",
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/RHNEW9J5",
 		"type": "paper-conference",
-		"container-title": "Proceedings of the NAFOSTED Conference on Information and Computer Science",
+		"container-title": "2022 9th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"DOI": "10.1109/NICS56915.2022.10013451",
 		"event-place": "Ho Chi Minh City, Vietnam",
-		"event-title": "NAFOSTED Conference on Information and Computer Science (NICS)",
+		"event-title": "2022 9th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"ISBN": "978-1-66545-422-3",
+		"page": "148-153",
 		"publisher": "IEEE",
 		"publisher-place": "Ho Chi Minh City, Vietnam",
-		"title": "A Linguistic-Based Transfer Learning Approach for Low-Resource Bahnar Text-To-Speech",
+		"source": "DOI.org (Crossref)",
+		"title": "A Linguistic-based Transfer Learning Approach for Low-resource Bahnar Text-to-Speech",
+		"URL": "https://ieeexplore.ieee.org/document/10013451/",
 		"author": [
 			{
 				"family": "Nguyen",
@@ -146,14 +167,85 @@
 				"given": "Duc Dung"
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					24
+				]
+			]
+		},
 		"issued": {
 			"date-parts": [
 				[
-					"2022 (accepted)"
+					"2022",
+					10,
+					31
 				]
 			]
 		}
 	},
+	{
+		"id": "http://zotero.org/users/local/ARb7SVOo/items/C8GJU5D3",
+		"type": "paper-conference",
+		"container-title": "2022 9th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"DOI": "10.1109/NICS56915.2022.10013457",
+		"event-place": "Ho Chi Minh City, Vietnam",
+		"event-title": "2022 9th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"ISBN": "978-1-66545-422-3",
+		"page": "154-158",
+		"publisher": "IEEE",
+		"publisher-place": "Ho Chi Minh City, Vietnam",
+		"source": "DOI.org (Crossref)",
+		"title": "MarbleNet: A Deep Neural Network Solution for Vietnamese Voice Activity Detection",
+		"title-short": "MarbleNet",
+		"URL": "https://ieeexplore.ieee.org/document/10013457/",
+		"author": [
+			{
+				"family": "Nguyen-Vo",
+				"given": "Hoang-Thi"
+			},
+			{
+				"family": "Nguyen-Gia",
+				"given": "Huy"
+			},
+			{
+				"family": "Nguyen-Tran",
+				"given": "Hoan-Duy"
+			},
+			{
+				"family": "Pham-Minh",
+				"given": "Hoang"
+			},
+			{
+				"family": "Vo-Thanh",
+				"given": "Hung"
+			},
+			{
+				"family": "Do-Duc",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					31
+				]
+			]
+		}
+	},	
 	{
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/G9JWWPKJ",
 		"type": "paper-conference",
@@ -199,6 +291,7 @@
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/ZFCIFPMP",
 		"type": "article-journal",
 		"container-title": "Electronics",
+		"DOI": "10.3390/electronics10121396",
 		"issue": "12",
 		"note": "publisher: Multidisciplinary Digital Publishing Institute",
 		"page": "1396",
@@ -277,6 +370,7 @@
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/4Y4D35AA",
 		"type": "article-journal",
 		"container-title": "IEEE Access",
+		"DOI": "10.1109/ACCESS.2020.3010018",
 		"note": "publisher: IEEE",
 		"page": "131988–132001",
 		"title": "Pyramid With Super Resolution for In-the-Wild Facial Expression Recognition",
@@ -311,6 +405,7 @@
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/3MIC2KPN",
 		"type": "paper-conference",
 		"container-title": "2019 19th International Symposium on Communications and Information Technologies (ISCIT)",
+		"DOI": "10.1109/ISCIT.2019.8905142",
 		"page": "64–69",
 		"publisher": "IEEE",
 		"title": "Alternative Vietnamese Speech Synthesis System with Phoneme Structure",
@@ -344,6 +439,7 @@
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/A67TSIHG",
 		"type": "paper-conference",
 		"container-title": "2019 International Conference on Multimodal Interaction",
+		"DOI": "10.1145/3340555.3355715",
 		"page": "572–576",
 		"publisher": "ACM",
 		"title": "Group-level Cohesion Prediction using Deep Learning Models with A Multi-stream Hybrid Network",
@@ -417,6 +513,7 @@
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/JEGW6XLK",
 		"type": "paper-conference",
 		"container-title": "2018 5th NAFOSTED Conference on Information and Computer Science (NICS)",
+		"DOI": "10.1109/NICS.2018.8606828",
 		"page": "424–429",
 		"publisher": "IEEE",
 		"title": "A Predictive Model for ECG Signals Collected from Specialized IoT Devices using Deep Learning",
@@ -505,6 +602,7 @@
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/M46PRRKD",
 		"type": "paper-conference",
 		"container-title": "Asian Conference on Intelligent Information and Database Systems",
+		"DOI": "10.1007/978-3-319-54472-4_22",
 		"page": "227–237",
 		"publisher": "Springer",
 		"title": "An Efficient Hybrid Model for Vietnamese Sentiment Analysis",
@@ -538,6 +636,7 @@
 		"id": "http://zotero.org/users/local/ARb7SVOo/items/X7RWTGT6",
 		"type": "article-journal",
 		"container-title": "Asian Journal of Computer Science and Information Technology",
+		"DOI": "10.15520/ajcsit.v6i3.44",
 		"issue": "3",
 		"note": "publisher: Innovative Journals",
 		"page": "27–34",
