@@ -7,10 +7,10 @@ role: Researcher
 permalink: 'team/thong-huynh'
 social:
     twitter: 
-    linkedin: https://www.linkedin.com/in/huynh-thanh-thong-663449221/
+    linkedin: https://www.linkedin.com/in/htthong
     google-scholar: 
 
-    github: https://github.com/thong25072002
+    github: https://github.com/htthong
 
     website:
     orcid: https://orcid.org/0000-0001-9306-1360
