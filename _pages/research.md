@@ -174,6 +174,25 @@ Use Cases:
   title="text2image-demo-results">
 </p>
 
+### Object Detection for the Visually Impaired
+
+Vision is an essential aspect of human life, providing us with the ability to perceive and interact with the world around us. However, visual impairment is a prevalent global issue, affecting a significant proportion of the population. Living with visual impairment poses significant challenges for individuals when it comes to independently navigating their surroundings, both indoors and outdoors.
+
+The objective of this project is to design and deploy an object detection device to assist individuals with visual impairments in their daily lives. This system applies computer vision techniques and image processing to help individuals recognize and locate objects in their surrounding environment. The core components of the system comprise an Intel depth camera, a processor such as a single-board computer/laptop, a microphone, and a headphone. These hardware components work in synergy to enable real-time object detection, obstacle avoidance, and virtual assistant functionalities.
+
+<p align="center">
+  <img src="../images/research/visually_impaired_system.png" width="90%" 
+  title="Object Detection Visually Impaired">
+</p>
+<p align="center">The system architecture and modes</p>
+
+Key Features and Capabilities:
+1. **Object Finding:** Using voice recognition through the microphone, users can specify the object they wish to find. The system then utilizes the YOLO-World object detection algorithm to identify and locate the desired object in real-time. The results including direction and distance of the object are communicated to the user through text-to-speech conversion. It also incorporates the abilities of obstacle avoiding mode to address the issue that users may encounter obstacles during the process.
+2. **Obstacle Avoiding:** The system employs threshold-based object localization within a specific range, typically less than 1 meter. If an obstacle is detected, the system draws a bounding box around it and calculates its exact size. Based on a size threshold, the system then determines whether the obstacle poses a potential harm. The system utilizes text-to-speech conversion to notify the user about the obstacle's position and size.
+3. **Assistant:** the Virtual Assistant system provides a range of virtual assistant features. Users can interact with the system to perform various tasks, such as checking the time, quitting the program, changing modes, disabling the program, obtaining weather information, and taking notes. These features aim to assist visually impaired individuals in their daily activities and improve their overall quality of life.
+
+Click [here](https://www.youtube.com/watch?v=G-P9G4ZW4Fg) to see the video demonstrating the system.
+
 ### Automatic Slides Generator for Scientific Academic Papers
 
 Presentations are commonly used in the fields of business, education, and research because they can effectively summarize and clarify large amounts of information using visual aids. With the development of deep learning, we aim to create a deep-learning model that can produce presentation slides on demand. This solution involves document summarizing, image and text retrieval, and slide organization to ensure that important components are presented in a suitable format. Our system is designed to help researchers efficiently create presentations on their respective topics.
