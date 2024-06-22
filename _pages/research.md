@@ -20,6 +20,32 @@ permalink: /research/
 
 ASR Systems try to map each signal input to the corresponding text. The architecture of ASR Systems typically includes Feature Extractor, Acoustic Model (Encoder) and Decoder. In many situations, Language Model might be used to improve prediction accuracy. After being extracted by Feature Extractor, data are encoded by the Encoder and decoded by the Decoder to produce the text. Click <a href="https://asr-bilhfc3vqa-as.a.run.app/">here</a> for ASR demonstration.
 
+### Voice Cloning
+
+Voice cloning is a task in text-to-speech (TTS) technology that allows for replicating a person's voice to speak a given text. Voice cloning can be applied in various fields, such as creating voice agents for banks and commerce. It can restore the voices of deceased individuals or those with speech impairments. Additionally, it can be used to generate voices for characters in video games, enhancing the gaming experience with more personalized and realistic character interactions.
+
+<p align="center">
+  <img src="../images/research/voice_cloning_overview.png" width="50%" 
+  title="Image Captioning">
+</p>
+<p align="center">Voice Cloning System</p>
+
+Although there are several ongoing studies in this field, challenges remain. The generated voice often lacks the naturalness of human speech, and it may not capture the unique characteristics of the reference voice accurately. These limitations highlight the need for further advancements to achieve more realistic and distinctive voice cloning results.
+
+<p align="center">
+  <img src="../images/research/voice_cloning_architecture.png" width="80%" 
+  title="Image Captioning">
+</p>
+<p align="center">DGSpeech Architecture</p>
+
+This project introduces DGSpeech, which is built on the FastSpeech2 architecture. DGSpeech incorporates:
+
+- MixStyle Layer Normalization: this technique perturbs style information by mixing and shuffling style embeddings, enhancing robustness and generalization of TTS models to adapt to varying styles and domains.
+
+- Flow-based Postnet: refines outputs from the transform decoder to produce more precise mel-spectrograms, enhancing the detail and quality of generated speech, particularly in expressive contexts.
+
+Click [here](https://hungle45.github.io/tts-demo/) for Voice Cloning demonstration.
+
 ### Chatbot for restaurant booking service
 
 Currently, the demand for direct interaction between businesses and customers is increasing. Science and technology is constantly evolving, Chatbot has been launched to solve the above needs for companies and businesses. Chatbots are used in many topics depending on the scenario built for bots. In the topic of restaurant booking service, the chatbot was created to interact with customers in the most natural way but still solve the customer's needs and get the most accurate information of the customer.
@@ -39,6 +65,7 @@ There are many frameworks for creating chatbots, one of which is the Rasa framew
 <p align="center">Test chatbot Rasa in fanpage facebook</p>
 
 ### Emotion recognition
+#### Image
 The problem of emotion recognition is a large area of research based on two subjects, which are emotional psychology and artificial intelligence. Human's emotions can be expressed through speech or nonverbal such as facial variations, tone of voice, etc and are recognized by sensor. In 1967, Mehrabian showed that 55% of emotions expressed from the face, 38% from the words voice and 7% from speech. That is why researchers are very interested in this field.  
 
 Facial emotion recognition has many applications in variety of fields: 
@@ -53,6 +80,39 @@ Facial emotion recognition has many applications in variety of fields:
     <img src="{{ site.url }}{{ site.baseurl }}/images/research/late_fusion.png" width="80%" title="Combined Architecture" >
 </p>
 
+#### Video
+Traditionally, facial emotion recognition has relied heavily on static images. However, in dynamic contexts such as videos, understanding temporal dynamics becomes crucial for accurate emotion interpretation. One approach to addressing this involves focusing on the most relevant frames within a video, rather than uniformly sampling frames. This is achieved by calculating a distribution for the importance of frames based on an attention mechanism, facilitating more efficient sampling and analysis.
+
+<p align="center">
+  <img src="../images/research/fer-overall_resample_frame.png" width="90%" 
+  title="Image Captioning">
+</p>
+
+In overview, the model is divided into 2 stages:
+
+Stage 1: The model will generate an attention weight to measure the correlation between frames. Then, a new distribution will be calculated based on this matrix, allowing for more suitable sampling of new frames.
+
+
+Stage 2: The model will take in the new frame samples and provide the primary prediction results.
+
+<p align="center">
+  <img src="../images/research/fer-overall_resample_model.png" width="90%" 
+  title="Image Captioning">
+</p>
+
+Usage:
+
+1. Frame Sampling: Frames are sampled uniformly from the distribution of original video frames.
+2. Feature Extraction: A ResNet backbone is employed to extract features from each sampled frame. This step ensures that relevant information is captured from the frames.
+3. Incorporation of Attention Mechanism within Frames: Due to global connectivity limitations, an attention block is introduced. This attention mechanism enhances feature correlation within individual frames.
+4. Global Average Pooling (GAP) and Tokenization: Global Average Pooling (GAP) is applied along the spatial dimension. Each frame is collapsed into a single token, which acts as input for subsequent blocks.
+5. Temporal Attention Mechanism: Besides typical transformer block outputs, this block generates an attention weight. The attention weight matrix stores the correlation between frames, capturing temporal relationships.
+6. Calculation of New Distribution: Utilizing the correlation matrix, a new distribution is computed. This distribution guides the resampling of frames for enhanced temporal understanding.
+7. Resampling Frames: Frames are resampled based on the updated distribution. This step ensures that the model captures temporal correlations effectively.
+8. Prediction Using Resampled Frames: Primary predictions are made based on the resampled frames.
+
+
+This multi-stage approach not only enhances the accuracy and efficiency of emotion recognition systems but also renders them indispensable tools across a multitude of fields and applications.
 
 ### Electrocardiogram (ECG) classification
 
@@ -114,6 +174,25 @@ Use Cases:
   title="text2image-demo-results">
 </p>
 
+### Object Detection for the Visually Impaired
+
+Vision is an essential aspect of human life, providing us with the ability to perceive and interact with the world around us. However, visual impairment is a prevalent global issue, affecting a significant proportion of the population. Living with visual impairment poses significant challenges for individuals when it comes to independently navigating their surroundings, both indoors and outdoors.
+
+The objective of this project is to design and deploy an object detection device to assist individuals with visual impairments in their daily lives. This system applies computer vision techniques and image processing to help individuals recognize and locate objects in their surrounding environment. The core components of the system comprise an Intel depth camera, a processor such as a single-board computer/laptop, a microphone, and a headphone. These hardware components work in synergy to enable real-time object detection, obstacle avoidance, and virtual assistant functionalities.
+
+<p align="center">
+  <img src="../images/research/visually_impaired_system.png" width="90%" 
+  title="Object Detection Visually Impaired">
+</p>
+<p align="center">The system architecture and modes</p>
+
+Key Features and Capabilities:
+1. **Object Finding:** Using voice recognition through the microphone, users can specify the object they wish to find. The system then utilizes the YOLO-World object detection algorithm to identify and locate the desired object in real-time. The results including direction and distance of the object are communicated to the user through text-to-speech conversion. It also incorporates the abilities of obstacle avoiding mode to address the issue that users may encounter obstacles during the process.
+2. **Obstacle Avoiding:** The system employs threshold-based object localization within a specific range, typically less than 1 meter. If an obstacle is detected, the system draws a bounding box around it and calculates its exact size. Based on a size threshold, the system then determines whether the obstacle poses a potential harm. The system utilizes text-to-speech conversion to notify the user about the obstacle's position and size.
+3. **Assistant:** the Virtual Assistant system provides a range of virtual assistant features. Users can interact with the system to perform various tasks, such as checking the time, quitting the program, changing modes, disabling the program, obtaining weather information, and taking notes. These features aim to assist visually impaired individuals in their daily activities and improve their overall quality of life.
+
+Click [here](https://www.youtube.com/watch?v=G-P9G4ZW4Fg) to see the video demonstrating the system.
+
 ### Automatic Slides Generator for Scientific Academic Papers
 
 Presentations are commonly used in the fields of business, education, and research because they can effectively summarize and clarify large amounts of information using visual aids. With the development of deep learning, we aim to create a deep-learning model that can produce presentation slides on demand. This solution involves document summarizing, image and text retrieval, and slide organization to ensure that important components are presented in a suitable format. Our system is designed to help researchers efficiently create presentations on their respective topics.
@@ -140,10 +219,6 @@ Use Cases:
   <img src="../images/research/Slide generation demo.png" width="50%" 
   title="Slide generation demo">
 </p>
-### Other related topics
-- NLP/NLU
-- Speech: text-to-speech (TTS)
-- Biomedical signal processing: EEG, ECG, etc.
 
 ### Other related topics
 - NLP/NLU
