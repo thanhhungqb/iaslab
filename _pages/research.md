@@ -124,8 +124,9 @@ This multi-stage approach not only enhances the accuracy and efficiency of emoti
 
 Early detection and prediction of cardiac anomalies play an important role in the diagnosis and treatment of cardiovascular diseases. In medicine, electrocardiography provides valuable information for the doctors since they can accurately determine what is happening concerning the heart activities. Nevertheless, electrocardiography classification is a non-trivial challenge due to the specialties of these data as well as the reliability of manual data collection methods. This motivates IASLab's members to study electrocardiography signal classification method based on Deep Learning approach to handle data collected from intelligent IoT devices.
 
-### Image Captioning
+### Image/Video Captioning
 
+#### Image Captioning
 In today's digital age, images have become the universal language of the internet. Image Captioning - this extraordinary fusion of computer vision and natural language processing has the capacity to bestow machines with the gift of language, enabling them to perceive and describe the intricate tapestry of our visual world in ways that were once the exclusive domain of human understanding.
 
 <p align="center">
@@ -143,6 +144,34 @@ The mechanics of image captioning involve a two-fold process: Visual Recognition
   title="Image Captioning - Basic Model">
 </p>
 <p align="center">Image Captioning - Basic Model</p>
+
+
+<!-- Tuan Anh & Tien Nam -->
+#### Dense video captioning for short video
+With the explosion of social media platforms such as YouTube, Facebook, TikTok, along with the vast amount of short-duration videos being created and shared every day, the demand for models to process and automate video-related workflows, particularly in the field of video understanding, is growing rapidly. The field of Video Understanding comprises various core subtasks such as action recognition and classification, video topic classification, object detection and tracking, video caption generation, and more. Among these tasks, dense video captioning has become one of the most prominent and highly regarded topics due to the challenges it presents and real-world applications.
+
+How does dense video captioning work?
+<p align="center">
+    <img src="https://i.imgur.com/D5hWrGo.png" width="45%" title="Integrated Architecture" >
+</p>
+
+Dense captions generator has many applications in variety of fields: 
+- Supporting students in watching and comprehending lecture video content.
+- Delivering video content and experience for individuals with visual impairments.
+- Assisting users in quickly and efficiently searching, sorting, and filtering video content.
+- Summarizing video content and providing concise explanations of videos.
+- Enhancing the quality of smart surveillance cameras.
+
+<p align="center">
+    <img src="https://i.imgur.com/7PMnEur.png" width="90%" title="Integrated Architecture" >
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/rE2hq2E.png" width="55%" title="Integrated Architecture" >
+</p>
+
+Our repository: https://github.com/Tien-Nam-Nguyen/Thesis
+
 
 ### Text-to-Image Generation
 
@@ -224,31 +253,6 @@ Use Cases:
 - NLP/NLU
 - Speech: text-to-speech (TTS)
 - Biomedical signal processing: EEG, ECG, etc.
-
-
-<!-- Tuan Anh & Tien Nam -->
-### Generate dense captions for short video
-With the explosion of social media platforms such as YouTube, Facebook, TikTok, along with the vast amount of short-duration videos being created and shared every day, the demand for models to process and automate video-related workflows, particularly in the field of video understanding, is growing rapidly. The field of Video Understanding comprises various core subtasks such as action recognition and classification, video topic classification, object detection and tracking, video caption generation, and more. Among these tasks, dense video captioning has become one of the most prominent and highly regarded topics due to the challenges it presents and real-world applications.
-
-How does dense video captioning work?
-<p align="center">
-    <img src="https://i.imgur.com/D5hWrGo.png" width="45%" title="Integrated Architecture" >
-</p>
-
-Dense captions generator has many applications in variety of fields: 
-- Supporting students in watching and comprehending lecture video content.
-- Delivering video content and experience for individuals with visual impairments.
-- Assisting users in quickly and efficiently searching, sorting, and filtering video content.
-- Summarizing video content and providing concise explanations of videos.
-- Enhancing the quality of smart surveillance cameras.
-
-<p align="center">
-    <img src="https://i.imgur.com/7PMnEur.png" width="90%" title="Integrated Architecture" >
-</p>
-
-Our repository: https://github.com/Tien-Nam-Nguyen/Thesis
-
-
 
 
 ## AI for Healthcare
