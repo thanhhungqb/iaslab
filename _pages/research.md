@@ -246,7 +246,7 @@ Dense captions generator has many applications in variety of fields:
     <img src="https://i.imgur.com/7PMnEur.png" width="90%" title="Integrated Architecture" >
 </p>
 
-
+Our repository: https://github.com/Tien-Nam-Nguyen/Thesis
 
 
 
