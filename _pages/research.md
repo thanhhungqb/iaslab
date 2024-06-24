@@ -249,6 +249,30 @@ Use Cases:
   title="Slide generation demo">
 </p>
 
+### Reinforcement Learning with CARLA
+
+The focus of this project is on utilizing Reinforcement Learning (RL) to train autonomous driving agents within the CARLA simulator. Specifically, the Proximal Policy Optimization (PPO) algorithm from the Stable Baselines3 (SB3) library is employed.
+
+The primary objective is to develop an autonomous driving agent capable of navigating urban environments safely and efficiently. CARLA provides a realistic simulation platform that allows for the testing of various driving scenarios, including different weather conditions and traffic patterns. This high-fidelity simulation environment enables the creation of diverse and challenging scenarios for RL agents to learn and adapt.
+
+<p align="center">
+  <img src="../images/research/carla.jpg" width="80%" 
+  title="Reinforcement Learning with CARLA">
+</p>
+<p align="center">Reinforcement Learning with CARLA</p>
+
+The PPO algorithm from SB3, known for its stability and efficiency, is implemented in this project. The training process involves the agent interacting with the CARLA environment, receiving observations and rewards based on its actions. Over time, the agent learns to optimize its driving policy to maximize cumulative rewards, which correspond to safe and efficient driving behaviors. This iterative learning process allows the agent to improve its performance through continuous feedback and adjustment.
+
+<p align="center">
+  <img src="../images/research/sb3.png" width="80%" 
+  title="Stable Baselines3">
+</p>
+<p align="center">Stable Baselines3</p>
+
+The primary application of this research is in the development of autonomous driving systems that can safely navigate complex urban settings. This approach allows for extensive testing and validation of autonomous driving algorithms in a simulated environment before real-world deployment. Additionally, this project contributes to the broader field of RL by providing insights into the application of advanced RL algorithms in high-fidelity simulation environments.
+
+Our repository: https://github.com/tqhung231/Autonomous-Driving
+
 ### Other related topics
 - NLP/NLU
 - Speech: text-to-speech (TTS)
